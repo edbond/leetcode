@@ -151,45 +151,9 @@ func main() {
 	// root = [2,1,1,1,3,nil,nil,nil,nil,nil,1]
 	root := buildTree([]interface{}{2, 1, 1, 1, 3, nil, nil, nil, nil, nil, 1})
 	// output = 1
-	// root := TreeNode{
-	// 	Val: 2,
-	// 	Left: &TreeNode{
-	// 		Val: 1,
-	// 		Left: &TreeNode{
-	// 			Val: 1,
-	// 		},
-	// 		Right: &TreeNode{
-	// 			Val: 3,
-	// 			Right: &TreeNode{
-	// 				Val: 1,
-	// 			},
-	// 		},
-	// 	},
-	// 	Right: &TreeNode{
-	// 		Val: 1,
-	// 	},
-	// }
 
 	// root = [2,3,1,3,1,null,1]
 	// output = 2
-	// root := TreeNode{
-	// 	Val: 2,
-	// 	Left: &TreeNode{
-	// 		Val: 3,
-	// 		Left: &TreeNode{
-	// 			Val: 3,
-	// 		},
-	// 		Right: &TreeNode{
-	// 			Val: 1,
-	// 		},
-	// 	},
-	// 	Right: &TreeNode{
-	// 		Val: 1,
-	// 		Right: &TreeNode{
-	// 			Val: 1,
-	// 		},
-	// 	},
-	// }
 
 	x := pseudoPalindromicPaths(root)
 	fmt.Println(x)
