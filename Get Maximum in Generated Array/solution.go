@@ -1,4 +1,4 @@
-import "fmt"
+package main
 
 func getMaximumGenerated(n int) int {
 	max := 0
