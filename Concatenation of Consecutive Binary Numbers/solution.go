@@ -6,15 +6,15 @@ import (
 )
 
 var (
-	y = int64(1e9 + 7)
+	y = int(1e9 + 7)
 )
 
 func concatenatedBinary(n int) int {
-	x := int64(0)
+	x := int(0)
 
 	for i := 1; i <= n; i++ {
 		x <<= bits.Len(uint(i))
-		x |= int64(i)
+		x |= int(i)
 		x %= y
 	}
 
